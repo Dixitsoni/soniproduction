@@ -184,7 +184,6 @@ hr {
   background-color: #a1915b;
 }
 
-
 .p_3 {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -563,9 +562,17 @@ a.socialIcon:hover,
 
 /*********************footer_end****************/
 
-
+.frame_container iframe {
+  width: 400px;
+}
 
 @media screen and (max-width : 767px) {
+
+  .frame_container iframe {
+    width: 100%;
+  }
+
+
   .navbar-collapse {
     max-height: 300px;
     overflow-y: scroll;
